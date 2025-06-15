@@ -1,0 +1,58 @@
+.connect-banner {
+  background-color: #ff00a2; /* Orange color */
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden; /* For the owl image */
+}
+
+.banner-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.banner-left .puzzle-icon {
+  height: 50px; /* Adjust size */
+}
+
+.banner-left h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.banner-left p {
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.connect-button {
+  background-color: #fff;
+  color: #f200ff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+  background-color: #f0f0f0;
+}
+
+.owl-icon {
+  position: absolute;
+  right: -20px; /* Adjust to show part of the owl */
+  top: 0;
+  height: 100px; /* Adjust size */
+  opacity: 0.8;
+  z-index: 0; /* Behind other content */
+}

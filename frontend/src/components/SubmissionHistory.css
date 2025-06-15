@@ -1,0 +1,41 @@
+.submission-history-card {
+    height: 180px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.submission-history-card .card-title {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.submission-grid {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end; /* Align bars to the bottom */
+}
+
+.month-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.submission-bar {
+    width: 15px; /* Width of the bars */
+    background-color: #4CAF50; /* Green color for submissions */
+    border-radius: 2px;
+    margin-bottom: 5px; /* Space between bar and month label */
+    min-height: 5px; /* Ensures even 0 submissions show a tiny bar */
+}
+
+.month-label {
+    font-size: 12px;
+    color: #888;
+}

@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header .logo img {
+  height: 30px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+.header .nav-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+}
+
+.header .nav-links li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  padding: 5px 0;
+  position: relative;
+}
+
+.header .nav-links li a.active {
+  color: #007bff; /* Active link color */
+}
+
+.header .nav-links li a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #007bff;
+}
+
+.header .user-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header .user-icons .icon {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
